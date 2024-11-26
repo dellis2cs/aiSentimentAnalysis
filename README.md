@@ -58,3 +58,8 @@ npm run dev
 cd backend
 python3 app.py
    ```
+
+## Ways to improve the model
+- The main issue I ran into when training this model was that when encountering phrases, not individual words the AI struggled
+- For example if I said "this product is not fun", it would see the word fun and mark it positive
+- I have trained and fine tuned to keep these discrepancies to a minimum, however you could transition to using a more power and context aware model such as bert
